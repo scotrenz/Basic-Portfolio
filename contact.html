@@ -1,39 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	
 	<title>Scot Renz Portfolio</title>
-	
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-	<body>
+<body>
 
-		<!--Name-->
-		<h1 id="title">Scot Renz</h1>
-		
+	<!--Header-->
+	<div class="head">
+		<div>
+			<h1>Scot Renz</h1>
+		</div>
+
 		<!--Navigation Bar-->
-		<ul id="navigation">
-			<li><a href="index.html">about</a></li>
-			<li><a href="contact.html">contact</a></li>
-			<li><a href="portfolio.html">portfolio</a></li>
+		<div class="nav-buttons">
+		<ul>
+			<li id="nav-about"><a href="index.html">About</a></li>
+			<li id="nav-portfolio"><a href="portfolio.html">Portfolio</a></li>
+			<li id="nav-contact"><a href="contact.html">Contact</a></li>
 		</ul>
-		<br>
+		</div>
+	</div>
 
+		<div class="main-content">
 			<!--Contact Form-->
-			<form>
-			<h1>Contact</h1>
+			<div class="left-content">
+				<h2>Contact</h2>
 			
-			<h3>Name</h3>
-			<input type="text" name="firstname">
+				<h3>Name</h3>
+				<input type="text" name="name">
 			
-			<h3>Email</h3>
-			<input type="text" name="email">
+				<h3>Email</h3>
+				<input type="text" name="email">
 			
-			<h3>Message</h3>
-			<input type="text" name="message">
-			</form>
+				<h3>Message</h3>
+				<textarea rows="20" cols="102%"></textarea>
+				<br>
+				<button>Submit</button>
+			</div>
 
+		<!--Connect Buttons-->
+		<div class="social">
+			<h2>Connect With Me</h2>
+			<a href="https://github.com/scotrenz" target="_blank">
+			<img src="assets/images/github-.png" alt="github">
+			</a>
+			<a href="https://www.linkedin.com/in/scot-renz-84113653/" target="_blank">
+			<img src="assets/images/linkedin-.png" alt="linkedin">
+			</a>
+			<a href="https://stackoverflow.com/users/8324079/scot-renz?tab=profile" target="_blank">
+			<img src="assets/images/stackoverflow-.png" alt="stackoverflow">
+		</div>
+	</div>
+		<!--Copywrite-->
+	<div class="footer">
+	<p>&#9400; Copywrite 2017 Scot Renz</p>
+	</div>
 
 </body>
 </html>
